@@ -7,3 +7,6 @@ formatted_date = now.strftime("%Y-%m-%d %H:%M:%S")
 # Write to version.md
 with open("data/version.md", "w") as file:
     file.write(f"Current Date and Time: {formatted_date}")
+
+#Current date and time
+print(formatted_date)
